@@ -14,7 +14,7 @@ def read_movies():
     return movies
 
 def list_movies(movies):
-    for i, movie in enumerate(movies, start-1):
+    for i, movie in enumerate(movies, start=1):
         print(f"{i}. {movies}")
     print()
 
