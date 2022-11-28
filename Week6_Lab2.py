@@ -1,3 +1,7 @@
+#Jamie Johnson
+#CIS261 Week6Lab2 Movie Guide
+
+
 FILENAME = "movies.txt"
 
 def write_movies(movies):
@@ -34,13 +38,14 @@ def delete_movie(movies):
         print(f"{movie} was deleted.\n")
 
 def display_menu():
-    print("The Movie list program")
+    print("The Movie List program")
     print()
     print("COMMAND MENU")
     print("list - List all movies")
     print("add - Add a movie")
     print("del - Delete a movie")
     print("exit - Exit program")
+    print()
 
 def main():
     display_menu()
@@ -61,3 +66,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+   
